@@ -63,9 +63,17 @@ public class Picture
         grass.changeSize(500);
         grass.makeVisible();
         sun.slowMoveVertical(-160);
+        
       
     }
-
+     /**
+     * Draw this picture.
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(160);
+        
+    }
     /**
      * Change this picture to black/white display
      */
